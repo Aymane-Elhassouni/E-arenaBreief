@@ -165,6 +165,45 @@
             cursor: pointer;
         }
 
+        .cta {
+            display: inline-block;
+            padding: 1rem 3rem;
+            background: var(--gradient-1);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            animation: fadeInUp 1s ease-out 0.4s both;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta1 {
+            display: inline-block;
+            padding: 1rem 3rem;
+            background: var(--gradient-1);
+            color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            animation: fadeInUp 1s ease-out 0.4s both;
+            border: none;
+            cursor: pointer;
+        }
+
+        ::placeholder{
+            color: white;
+        }
+
+        select option{
+            background-color: black;
+        }
+
         .cta-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);

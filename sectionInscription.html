@@ -15,7 +15,7 @@
                 <li><a href="sectionequipes.html">Équipes</a></li>
                 <li><a href="sectionActualites.html">Actualités</a></li>
                 <li><a href="sectionInscription.html">Inscription</a></li>
-                <li><a href="footerContact.html">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -32,21 +32,35 @@
     <!-- Section Inscription -->
          <section>
             <h2 class="section-title">Inscription</h2>
-            <div>
+            <div class="hero-content">
             <form>
-                <input placeholder="nome" type="text">
+                <label>Nome</label>
                 <br>
-                <input placeholder="prènome" type="text">
+                <input placeholder="nome" type="text" class="cta">
                 <br>
-                <select>
-                    <option>1. FGC (Fighting Game Community)</option>
-                    <option>2. RTS (Real time strategy)</option>
-                    <option>3. MOBA (Multiplayer Online Battle Arena)</option>
+                <label>Prènome</label>
+                <br>
+                <input placeholder="prènome" type="text" class="cta">
+                <br>
+                <label>Équipes</label>
+                <br>
+                <select name="equipes" class="cta1">
+                    <option value="1.Team Fury">1.Team Fury</option>
+                    <option value="2.Vortex Gaming">2.Vortex Gaming</option>
+                    <option value="3.Nexus Elite">3.Nexus Elite</option>
+                    <option value="4.Phoenix Squad">4.Phoenix Squad</option>
                 </select>
                 <br>
-                <textarea rows="5" cols="25"placeholder="message"></textarea>
+                <label>Tournoi</label>
                 <br>
-                <input type="submit" value="sende">
+                <select name="tournoi" class="cta1">
+                    <option>1.Championship Series 2025</option>
+                    <option>2.Battle Royale Masters</option>
+                    <option>3.Winter Cup 2025</option>
+                    <option>4.Phoenix Squad</option>
+                </select>
+                <br><br>
+                <input type="submit" class="cta-button" value="S'inscrire">
             </form>
             </div>
 
